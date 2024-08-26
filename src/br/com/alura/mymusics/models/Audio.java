@@ -6,7 +6,7 @@ public class Audio {
     private int duration;
     private int totalReproductions;
     private int likes;
-    private double classification;
+    private int classification;
 
     public String getTitle() {
         return title;

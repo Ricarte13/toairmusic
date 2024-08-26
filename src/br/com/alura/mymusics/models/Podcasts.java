@@ -22,4 +22,13 @@ public class Podcasts extends Audio {
     public void setType(String type) {
         this.type = type;
     }
+
+    @Override
+    public double getClassification() {
+        if(getLikes() > 1000){
+            return 10;
+        }else {
+            return 7;
+        }
+    }
 }
